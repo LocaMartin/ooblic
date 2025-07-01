@@ -68,3 +68,6 @@ OOBLIC use [interactsh](https://github.com/projectdiscovery/interactsh)
 
 ### Usage
 
+```
+ooblic -d example.com -H "Host: d1h2c8kubu2319mvfgm0waow9srzinyu8.oast.me"
+```
