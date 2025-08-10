@@ -1,4 +1,7 @@
 # ooblic
+
+<div align="center"><img src="logo.svg"/></div>
+
 OOBLIC use [interactsh](https://github.com/projectdiscovery/interactsh)
 - when we use interactsh-client sometimes domains sends back respone from internal ip insted of proxy ip making it confusing to work with. ooblic solves this issue
 - i learned interactsh can be used as a library from [here](https://github.com/projectdiscovery/interactsh/blob/main/examples/client.go) and buid ooblic
