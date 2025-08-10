@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="48" viewBox="0 0 60 48" role="img" aria-label="Three slashes loading sequence">
+  <style>
+    .slash {
+      fill: cyan;
+      font-size: 32px;
+      font-family: monospace;
+      opacity: 0;
+      animation: appear 1s infinite;
+    }
+    .s1 { animation-delay: 0s; }
+    .s2 { animation-delay: 0.33s; }
+    .s3 { animation-delay: 0.66s; }
+    @keyframes appear {
+      0% { opacity: 0; }
+      10%, 100% { opacity: 1; }
+    }
+  </style>
+
+  <!-- Exact positioning for no gap -->
+  <text x="10" y="36" class="slash s1">/</text>
+  <text x="26" y="36" class="slash s2">/</text>
+  <text x="42" y="36" class="slash s3">/</text>
+</svg>
